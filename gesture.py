@@ -138,7 +138,7 @@ with mp_hands.Hands(
                     text = hand_pos(finger_angle) # get corresponding gesture          
                     cv2.putText(img, text, (30, 120), fontFace, 5, (0, 0, 0), 10, lineType) 
                     			  
-            cv2.imshow("oxxostudio", img)
+            cv2.imshow("Gesture result", img)
             if cv2.waitKey(5) == ord("q"):
                 break   
 
